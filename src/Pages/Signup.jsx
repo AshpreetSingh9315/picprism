@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const Seller = () => {
+const Signup = () => {
   return (
     <div className="  flex flew-col justify-center items-end w-full sm:mt-28 mt-36 ">
       
@@ -44,4 +44,4 @@ const Seller = () => {
   )
 }
 
-export default Seller
+export default Signup

@@ -14,8 +14,8 @@ const Navbar = () => {
         <ul className="flex flex-row justify-center items-center font-semibold  gap-6 sm:gap-5 text-lg  text-gray-500 ps-4 sm:pe-0  ">
         <Link to={"/"} className="hover:text-black cursor-pointer sm:p-2 transition-all ease-linear transform " >Home</Link>
         <Link to={""} className="hover:text-black cursor-pointer sm:p-2 transition-all ease-linear transform " >About</Link>
-        <Link to={"/login"} className="hover:text-black cursor-pointer sm:p-2 transition-all ease-linear transform " >Login</Link>
-        <Link to={"/signup"} className="hover:text-black cursor-pointer sm:p-2 transition-all ease-linear transform " >Signup</Link>
+        <Link to={"/login"} className="hover:text-black cursor-pointer sm:p-2 transition-all ease-linear transform " >Log In</Link>
+        <Link to={"/signup"} className="hover:text-black cursor-pointer sm:p-2 transition-all ease-linear transform " >Sign Up</Link>
         </ul>
 
       </nav>

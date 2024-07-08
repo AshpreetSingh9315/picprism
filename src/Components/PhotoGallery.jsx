@@ -4,9 +4,9 @@ import { IoMdHeart } from "react-icons/io";
 import Cards from "./Cards"
 const PhotoGallery = () => {
   return (
-    <div className="bg-white flex flex-col justify-center items-center my-20">
+    <div className="bg-white flex flex-col justify-center items-center sm:my-20">
       <h3 className="text-4xl font-semibold py-10">Photos Gallery</h3>
-      <div className="flex flex-row gap-8 flex-wrap justify-center items-center">
+      <div className="flex flex-row sm:gap-5  flex-wrap justify-center items-center">
         
       <Cards
         id = {1}
