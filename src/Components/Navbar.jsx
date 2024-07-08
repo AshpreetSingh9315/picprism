@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav className="flex flex-col sm:flex-row justify-between items-start sm:items-center px-5 py-5  shadow-md fixed top-0 left-0 right-0 bg-white gap-1 sm:gap-0">
+      <nav className="flex flex-col sm:flex-row justify-between items-start sm:items-center px-5 py-5  shadow-md fixed top-0 left-0 right-0 bg-white gap-1 sm:gap-0 z-30">
 
         <div className="flex justify-center items-center">
         <img src="/picprismlogo.png" alt="" className="w-[50px] "/>       

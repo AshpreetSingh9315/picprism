@@ -4,7 +4,7 @@
 const Cards = ({id , img , author , price , title , icon1 , icon2}) => {
   return (
     <>
-          <div className="shadow-lg  rounded-lg">
+          <div className="shadow-lg  rounded-lg mb-16">
           <div className="w-full h-[200px] overflow-clip rounded-lg ">
             <img
               src={img}
