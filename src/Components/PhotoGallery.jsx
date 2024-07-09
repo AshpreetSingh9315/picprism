@@ -19,7 +19,7 @@ const PhotoGallery = () => {
       />
 
       <Cards
-        id = {1}
+        id = {2}
         title = "The Better Trip"
         img = "https://images.pexels.com/photos/26754397/pexels-photo-26754397/free-photo-of-sunrise-praia-do-felix.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         author = "GameFix"
