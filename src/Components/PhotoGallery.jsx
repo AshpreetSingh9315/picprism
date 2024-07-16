@@ -27,6 +27,42 @@ const PhotoGallery = () => {
         icon1 = {<IoIosCart className="text-3xl  cursor-pointer" />}
         icon2 = {<IoMdHeart className="text-3xl text-red-600 cursor-pointer" />}
       />
+      <Cards
+        id = {2}
+        title = "The Better Trip"
+        img = "https://images.pexels.com/photos/26754397/pexels-photo-26754397/free-photo-of-sunrise-praia-do-felix.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        author = "GameFix"
+        price = {23}
+        icon1 = {<IoIosCart className="text-3xl  cursor-pointer" />}
+        icon2 = {<IoMdHeart className="text-3xl text-red-600 cursor-pointer" />}
+      />
+      <Cards
+        id = {2}
+        title = "The Better Trip"
+        img = "https://images.pexels.com/photos/26754397/pexels-photo-26754397/free-photo-of-sunrise-praia-do-felix.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        author = "GameFix"
+        price = {23}
+        icon1 = {<IoIosCart className="text-3xl  cursor-pointer" />}
+        icon2 = {<IoMdHeart className="text-3xl text-red-600 cursor-pointer" />}
+      />
+      <Cards
+        id = {2}
+        title = "The Better Trip"
+        img = "https://images.pexels.com/photos/26754397/pexels-photo-26754397/free-photo-of-sunrise-praia-do-felix.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        author = "GameFix"
+        price = {23}
+        icon1 = {<IoIosCart className="text-3xl  cursor-pointer" />}
+        icon2 = {<IoMdHeart className="text-3xl text-red-600 cursor-pointer" />}
+      />
+      <Cards
+        id = {2}
+        title = "The Better Trip"
+        img = "https://images.pexels.com/photos/26754397/pexels-photo-26754397/free-photo-of-sunrise-praia-do-felix.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        author = "GameFix"
+        price = {23}
+        icon1 = {<IoIosCart className="text-3xl  cursor-pointer" />}
+        icon2 = {<IoMdHeart className="text-3xl text-red-600 cursor-pointer" />}
+      />
  
       </div>
     </div>

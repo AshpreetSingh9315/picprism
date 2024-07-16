@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 const User = require("../Models/User");
-const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const {createWebToken} = require("../Helpers/accessToken")
@@ -17,7 +16,7 @@ const signup = async (req, res) => {
   try {
     const user = await User.findOne({username});
     if (user) {
-      return res.status(400).json({success: false , message : "UserName Already exist"});
+      return res.status(400).json({success: false , message : "Username Already exist"});
     }
 
     const securePassword = await bcrypt.hash(password , 10 )
