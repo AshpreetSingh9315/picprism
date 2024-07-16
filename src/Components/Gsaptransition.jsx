@@ -6,7 +6,7 @@ import BuyerDashboard from './../Pages/BuyerDashboard';
 import SellerDashboard from './../Pages/SellerDashboard';
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import { Toaster , toast } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 
 const Gsaptransition = () => {
 
@@ -15,7 +15,7 @@ const Gsaptransition = () => {
     useEffect(()=>{
         if(nodeRef.current){
             gsap.fromTo(nodeRef.current, {opacity: 0} , {opacity: 1, duration: 0.56});
-            toast.success(location.pathname)
+            // toast.success(location.pathname)
         }
     },[location])
      
