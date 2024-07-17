@@ -1,9 +1,11 @@
 import {Link} from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+  const {pathname} = useLocation();
   return (
     <>
-    <footer className="text-gray-600 body-font border-t-2 mt-10">
+    <footer className={`text-gray-600 body-font border-t-2 mt-10 ${pathname === '/seller/profile' || pathname === '/buyer/profile' ? "hidden" : "static"}`}>
   <div className="container px-5 py-14 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">

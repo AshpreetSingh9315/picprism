@@ -1,8 +1,9 @@
+import DashboardSidebar from "../Components/DashboardSidebar"
 
 const BuyerDashboard = () => {
   return (
     <div>
-      BuyerDashboard
+     <DashboardSidebar />
     </div>
   )
 }

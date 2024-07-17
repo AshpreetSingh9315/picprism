@@ -1,9 +1,10 @@
+import DashboardSidebar from './../Components/DashboardSidebar';
 
 const SellerDashboard = () => {
   return (
-    <div>
-      SellerDashboard
-    </div>
+    <>
+      <DashboardSidebar />
+    </>
   )
 }
 

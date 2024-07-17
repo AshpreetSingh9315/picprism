@@ -68,8 +68,8 @@ const Signup = () => {
             setaccountType(e.target.value)
           }} name="account" value={accountType} className="outline-0 shadow-md  sm:w-[25vw] w-[300px] py-2 px-2 text-xl rounded-lg" id="account">
             {/* <option value="Account Type" >Select Account Type</option> */}
-            <option value="Buyer">Buyer</option>
-            <option value="Seller">Seller</option>
+            <option value="buyer">Buyer</option>
+            <option value="seller">Seller</option>
           </select>
           </div>
 
